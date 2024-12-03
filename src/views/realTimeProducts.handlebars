@@ -1,0 +1,24 @@
+<div>
+    <h1>Acá va la conexion con web socket</h1>
+    <div>
+        <form id="formulario">
+        <h2>Sección para agregar un producto</h2>
+        <h5>Por favor agregar un nombre del producto</h5>
+        <input id="nombreProducto" type="text" alt="Introduce un producto"> 
+        <h5>Por favor agregar un precio del producto</h5>
+        <input id="precioProducto" type="number" alt="Introduce el precio del producto"> 
+        <h5>Por favor agregar una descripcion del producto</h5>
+        <input id="descripcionProducto" type="text" alt="Introduce la descripcion del producto"> 
+        <button id="submit">Agregar a base</button>
+        </form>
+    </div>
+
+    <div id="listado" class="productos">
+        <h4>Actualización de productos online</h4>
+    </div>
+
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
